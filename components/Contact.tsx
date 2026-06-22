@@ -1,6 +1,7 @@
 'use client'
 
 import { useRef, useState } from 'react'
+import type { FormEvent } from 'react'
 import { motion, useInView } from 'framer-motion'
 
 export default function Contact() {
@@ -9,7 +10,7 @@ export default function Contact() {
   const [sent, setSent] = useState(false)
   const [form, setForm] = useState({ name: '', email: '', message: '' })
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: FormEvent) => {
     e.preventDefault()
     // In production: connect to API route or Formspree
     setSent(true)

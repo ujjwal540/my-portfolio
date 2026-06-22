@@ -61,7 +61,7 @@ export default function Testimonials() {
               className="glass rounded-2xl p-6 card-lift"
             >
               {/* Quote mark */}
-              <div className="text-4xl font-black mb-4 leading-none" style={{ color: t.color, opacity: 0.4 }}>"</div>
+              <div className="text-4xl font-black mb-4 leading-none" style={{ color: t.color, opacity: 0.4 }}>&quot;</div>
               <p className="text-sm leading-relaxed mb-5" style={{ color: 'var(--text-secondary)' }}>
                 {t.text}
               </p>
