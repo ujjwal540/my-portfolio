@@ -1,7 +1,7 @@
 'use client'
 
 import { useRef, useState } from 'react'
-import { motion, useInView, AnimatePresence } from 'framer-motion'
+import { motion, useInView } from 'framer-motion'
 
 const projects = [
   {
@@ -146,7 +146,7 @@ export default function Projects() {
             <span className="gradient-text">Work</span>
           </h2>
           <p className="text-lg max-w-2xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
-           AI-powered products built with a focus on real-world impact and production quality.
+            AI-powered products built with a focus on real-world impact and production quality.
           </p>
 
           {/* Stats bar */}
@@ -157,10 +157,10 @@ export default function Projects() {
             className="flex flex-wrap justify-center gap-6 mt-8"
           >
             {[
-              { label: 'Projects' },
-              { label: 'IEEE Paper' },
-              { label: 'Real & Verified' },
-              { label: 'AI/ML Projects' },
+              { value: '6+', label: 'Projects' },
+              { value: '1', label: 'IEEE Paper' },
+              { value: '100%', label: 'Real & Verified' },
+              { value: '5+', label: 'AI/ML Projects' },
             ].map((stat) => (
               <div
                 key={stat.label}
