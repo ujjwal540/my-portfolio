@@ -106,7 +106,7 @@ Or just push to `main` — Vercel auto-deploys on every commit.
 
 ## 📄 License
 
-Feel free to use this project as inspiration for your own portfolio. Please don't copy it directly—build something unique that reflects your own style and skills.
+Feel free to use this as inspiration. Please don't copy it directly.
 ---
 
 ⭐ If you found this helpful, consider starring the repo!
