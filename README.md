@@ -39,24 +39,24 @@
 ```
 portfolio/
 ├── app/
-│   ├── layout.tsx        # Root layout, SEO metadata, fonts
-│   ├── page.tsx          # Main page assembly
-│   └── globals.css       # CSS variables, animations, glassmorphism
+│   ├── layout.tsx       
+│   ├── page.tsx          
+│   └── globals.css      
 ├── components/
-│   ├── Navbar.tsx        # Scroll-aware navbar + mobile menu
-│   ├── FloatingControls.tsx  # Right-side theme toggle panel
-│   ├── CursorGlow.tsx    # Mouse tracking glow effect
-│   ├── Hero.tsx          # Typing animation, blobs, particles
-│   ├── About.tsx         # Profile card, bio, stats
-│   ├── Skills.tsx        # Animated skill bars + badge cloud
-│   ├── Projects.tsx      # 6 project cards with metrics
-│   ├── Experience.tsx    # Vertical timeline
-│   ├── Testimonials.tsx  # Social proof cards
-│   ├── Contact.tsx       # Contact form + social links
+│   ├── Navbar.tsx        
+│   ├── FloatingControls.tsx  
+│   ├── CursorGlow.tsx    
+│   ├── Hero.tsx          
+│   ├── About.tsx         
+│   ├── Skills.tsx        
+│   ├── Projects.tsx      
+│   ├── Experience.tsx    
+│   ├── Testimonials.tsx  
+│   ├── Contact.tsx       
 │   ├── Footer.tsx
-│   └── AIChatWidget.tsx  # Claude-powered chat assistant
+│   └── AIChatWidget.tsx  
 ├── public/
-│   └── resume.pdf        # CV download
+│   └── resume.pdf
 ├── package.json
 ├── tailwind.config.ts
 └── tsconfig.json
